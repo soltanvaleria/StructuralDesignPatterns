@@ -7,7 +7,6 @@ public class Client {
     Mp3 mp3 = new Mp3("2.mp3");
     MediaPlayer mediaPlayer = new MediaPlayer();
     Mp4Adapter mp4Adapter = new Mp4Adapter(mp4);
-
     mediaPlayer.play(mp3);
     mediaPlayer.play(mp4Adapter);
 
